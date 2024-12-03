@@ -1,0 +1,182 @@
+[
+  {
+    "model": "courses.course",
+    "pk": 1,
+    "fields": {
+      "title": "Python",
+      "preview": "",
+      "description": "The big OOP Python course",
+      "owner": 4,
+      "created_at": "2024-07-25T00:00:00Z",
+      "updated_at": "2024-07-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 2,
+    "fields": {
+      "title": "C++",
+      "preview": "",
+      "description": "Deeper and deeper",
+      "owner": null,
+      "created_at": "2024-07-25T00:00:00Z",
+      "updated_at": "2024-07-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 3,
+    "fields": {
+      "title": "Django",
+      "preview": "",
+      "description": "Get understanding of django or go postal",
+      "owner": null,
+      "created_at": "2024-07-25T00:00:00Z",
+      "updated_at": "2024-07-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 5,
+    "fields": {
+      "title": "Django Rest Framework",
+      "preview": "",
+      "description": "Some JSON's, and even more JSON's",
+      "owner": null,
+      "created_at": "2024-07-25T00:00:00Z",
+      "updated_at": "2024-07-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 7,
+    "fields": {
+      "title": "Test course",
+      "preview": "",
+      "description": "Big test is the best",
+      "owner": 4,
+      "created_at": "2024-07-25T00:00:00Z",
+      "updated_at": "2024-07-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 1,
+    "fields": {
+      "title": "Viewsets and generics",
+      "course": 3,
+      "description": "can U do homework with VewSets and Generics?",
+      "preview": "",
+      "video_url": null,
+      "owner": null
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 2,
+    "fields": {
+      "title": "FBV and CBV",
+      "course": 3,
+      "description": "U can't understand? No problem, it's normally!",
+      "preview": "",
+      "video_url": null,
+      "owner": null
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 3,
+    "fields": {
+      "title": "Permissions",
+      "course": 3,
+      "description": "permission denied. Please, authorized!",
+      "preview": "",
+      "video_url": null,
+      "owner": null
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 4,
+    "fields": {
+      "title": "functions",
+      "course": 2,
+      "description": "how to create functions and use it after that",
+      "preview": "",
+      "video_url": null,
+      "owner": null
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 5,
+    "fields": {
+      "title": "dinamical polimorphysm",
+      "course": 2,
+      "description": "what it is and how to live with this knowledge",
+      "preview": "",
+      "video_url": null,
+      "owner": null
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 6,
+    "fields": {
+      "title": "list comprehensions",
+      "course": 1,
+      "description": "I have for U some special street magic!",
+      "preview": "",
+      "video_url": null,
+      "owner": 4
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 7,
+    "fields": {
+      "title": "magic methods",
+      "course": 1,
+      "description": "even more special street magic for U!",
+      "preview": "",
+      "video_url": null,
+      "owner": 4
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 8,
+    "fields": {
+      "title": "legasy",
+      "course": 1,
+      "description": "True OOP method to become rich.",
+      "preview": "",
+      "video_url": null,
+      "owner": 4
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 9,
+    "fields": {
+      "title": "errors and exeptions",
+      "course": 1,
+      "description": "try: understand_that()/ except: cry_in_desperation()",
+      "preview": "",
+      "video_url": null,
+      "owner": 4
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 11,
+    "fields": {
+      "title": "lesson 2",
+      "course": 1,
+      "description": null,
+      "preview": "",
+      "video_url": null,
+      "owner": 1
+    }
+  }
+]
